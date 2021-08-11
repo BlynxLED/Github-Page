@@ -6,7 +6,7 @@
     <body>
         <h2>Pattern Form for updating Blynx LED controller</h2>
 		<div id="app">
-			<form>
+			<form method="get">
 				<select id="patterns" name="patterns">
     				<option value="ripple">Ripple</option>
     				<option value="cylonbounce">CylonBounce</option>
@@ -16,7 +16,7 @@
     				<option value="fire">Fire</option>
 					<option value="meteorrain">Meteor Rain</option>
   				</select>
-				<select id="colors" type="color"/>
+				<input id="colors" type="color">
 				<input type="submit">
 			</form>
         </div>
